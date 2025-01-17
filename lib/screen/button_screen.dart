@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:online_lecture_smwu/screen/click_screen.dart';
-import 'package:online_lecture_smwu/screen/colrow_deep_screen.dart';
 import 'package:online_lecture_smwu/screen/column/column_practice_screen.dart';
 import 'package:online_lecture_smwu/screen/column/column_row_advanced_screen.dart';
 import 'package:online_lecture_smwu/screen/column/column_screen.dart';
