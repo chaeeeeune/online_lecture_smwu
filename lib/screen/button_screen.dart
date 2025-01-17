@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:online_lecture_smwu/screen/checkbox/checkbox_screen.dart';
 import 'package:online_lecture_smwu/screen/click_screen.dart';
 import 'package:online_lecture_smwu/screen/column/column_practice_screen.dart';
 import 'package:online_lecture_smwu/screen/column/column_row_advanced_screen.dart';
@@ -210,6 +211,16 @@ class ButtonScreen extends StatelessWidget {
                     ));
                   },
                   child: const Text("Click")),
+              const SizedBox(height: 10),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(
+                        builder: (context) {
+                          return const CheckboxScreen();
+                        }
+                    ));
+                  },
+                  child: const Text("CheckBox")),
 
             ],
           ),
